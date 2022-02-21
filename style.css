@@ -1,0 +1,69 @@
+/*Carregando as fontes*/
+
+@font-face {
+    font-family:'Poppins-SemiBold' ;
+    src: url(Poppins/Poppins-SemiBold.ttf);
+    font-weight: normal;
+}
+
+/*Esterilizando a página*/
+
+*{
+    margin-left: 4px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins-SemiBold' ;
+}
+
+body{
+    background: #F6F9FF;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+/*Esterilizando o Cabeçalho*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header div{
+    color: rgb(156, 92, 216);
+    font-weight: 900;
+}
+
+/*Pegando a lista do header*/
+
+ul{
+    display: flex;
+    margin: 20px;
+    text-align: right;
+}
+ul li  {
+    list-style: none;
+    justify-content: right;
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(156, 92, 216);
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+/*Mechendo com o corpo do trabalho*/
+
+main:nth-child(2){
+    text-align: center;
+}
+
+.Eventos{
+    display: flex;
+    padding: 32px;
+}

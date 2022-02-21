@@ -1,0 +1,25 @@
+.baner{
+    width: 960px;
+    height: ;
+    margin: 0 auto;
+    animation: slide 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slide{
+    0%, 30%{
+        background-image: url('../Grupo01/moco2.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    35%, 65%{
+        background-image: url('../Grupo01/Moco.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+
+}
+
+
+
