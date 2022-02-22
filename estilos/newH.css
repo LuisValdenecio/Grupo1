@@ -1,0 +1,133 @@
+header{
+    height: 90px;
+    width: 100%;
+    background-image: url(eco.jpg);
+    text-align: center;
+    text-justify: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color : seashell;
+    border: yellow;
+}
+h1{
+    display:flexbox;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    display: flex;
+}
+h3{
+    text-align: center;
+}
+li {
+    display: block;
+    /*mandar para a lateral direita*/
+    justify-content: flex-end;
+}
+
+ li{
+    list-style: none ; 
+    background-image: url(ab.jpg);
+    height: 50px;
+    width: 100%;
+    color: azure;
+    text-justify: auto;
+    border-radius: 5px;
+}
+h2{
+    font-weight: 1030;
+    text-shadow: white;
+    color: black;
+    border: chartreuse;
+    background-color: darkblue;
+    color: lime;
+    text-align: center;
+    font: em sans-serif;
+}
+h3{
+    background-image: url(audiogif.gif);
+    text-align: center;
+    width: 25%;
+    height: 15%;
+    margin: 2%;
+}
+#click{
+    text-justify: auto;
+    color:white;
+    background-image: url(git.gif);
+    font-size: 40px;
+}
+audio{
+    display: block;
+    margin: 40px;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 900px;
+}
+#primário{
+    width: 100%;
+}
+#coluna1{
+background-image: url(ab.jpg);
+}
+#coluna2{
+    text-align:center;
+    display: flex;
+    background-image: url();
+    width: 100%;
+
+}
+#fila1{
+   background-image: url(bl.jpg);
+   width: 100%;
+}
+#fila2{
+    width: auto;
+}
+body{
+    background-image: url(bj.jpg);
+}
+section{
+    display: block;
+
+}
+article{
+    text-align: center;
+}
+#listas{
+
+}
+section{
+    margin: 5px;
+}
+
+img{
+    display: inline;
+    width: 130px;
+    height: 130px;
+    margin: 3%;
+    border-radius: 100%;
+}
+a:hover{
+    width: 600px;
+    height: 300px;
+    transform: translate(1px, 1px);
+    transition: all .93s;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    image-resolution: 40;
+}
+footer{
+    display: flexbox;
+    height: 210px;
+    width: 100%;
+    margin: 80px;;
+    background-image: url(hb1.gif);
+    bottom:1110px;
+}
