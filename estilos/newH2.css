@@ -83,9 +83,9 @@ img  #I {
         width: 600px;
         height: 300px;
         margin: 15px;  
-        transition: all .91s;
+        transition: all .99s;
     }
-    a:hover{
+    #linkN :hover{
         display: inline-table;
         width: 600px;
         height: 300px;
@@ -95,4 +95,8 @@ img  #I {
         margin-left: 3%;
         margin-bottom: 5%;
         margin-right: 2%;
+    }
+    #linkM{
+        display: inline-flex;
+        font-style: normal;
     }
