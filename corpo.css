@@ -1,0 +1,64 @@
+/*Estirilizamdo os eventos como tal*/
+
+section.Eventos section.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 220px;
+    margin-left: 32px;
+}
+
+section.Eventos section.Card h3{
+    margin: 16px 0;
+}
+section.Eventos section.Card samp {
+    font-weight: 300px;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+section.Eventos section.Card :first-child(){
+    margin-left: 0;
+}
+
+section.Eventos section.Card button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: white;
+}
+section.Eventos section.Card.Deezy button{
+    background: linear-gradient(to left, #52e2d6, #2f85e7);
+
+}
+section.Eventos section.Card.rosa button{
+    background: linear-gradient(to left, #e7a4de, #e663ba);
+
+}
+section.Eventos section.Card.Cultura button{
+    background: linear-gradient(to left, #89df86, #38ec56);
+
+}
+
+section.Eventos section.Card.Deezy{
+    box-shadow: 50px 50px 60px -40px #2f85e7;
+}
+section.Eventos section.Card.rosa{
+    box-shadow: 50px 50px 60px -40px #e663ba;
+}
+section.Eventos section.Card.Cultura{
+    box-shadow: 50px 50px 60px -40px #38ec56 ;
+}
+/*Estirilizamdo as imagens*/
+section.Eventos section.Card img{
+    width: 64px;
+}
